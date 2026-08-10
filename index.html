@@ -1,0 +1,79 @@
+<!doctype html>
+<html dir="rtl" lang="fa">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>مستندات</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    />
+    <style>
+      body,
+      .sidebar,
+      .markdown-section {
+        font-family: Vazirmatn, Tahoma, sans-serif;
+      }
+
+      /* سایدبار در حالت RTL باید سمت راست باشد */
+      .sidebar {
+        right: 0;
+        left: auto;
+      }
+      .content {
+        right: 300px;
+        left: 0;
+      }
+      .sidebar-toggle {
+        right: 0;
+        left: auto;
+      }
+
+      /* کد همیشه چپ‌چین می‌ماند */
+      .markdown-section pre,
+      .markdown-section code,
+      .markdown-section pre > code {
+        direction: ltr;
+        text-align: left;
+      }
+
+      .markdown-section table {
+        direction: rtl;
+      }
+      .markdown-section blockquote {
+        border-right: 4px solid #42b983;
+        border-left: none;
+      }
+
+      @media screen and (max-width: 768px) {
+        .content {
+          right: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">در حال بارگذاری…</div>
+    <script>
+      window.$docsify = {
+        name: "مستندات",
+        loadSidebar: true, // _sidebar.md را می‌خواند
+        subMaxLevel: 3, // عناوین هر صفحه را در سایدبار باز می‌کند
+        homepage: "README.md",
+        auto2top: true,
+        search: {
+          placeholder: "جستجو…",
+          noData: "چیزی پیدا نشد",
+          depth: 3,
+        },
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-docker.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
+  </body>
+</html>
