@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="400" viewBox="0 0 1200 400"
+     role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">my-docs</title>
+  <desc id="heroDesc">سایت مستندات فنی فارسی و راست‌به‌چپ، ساخته‌شده با docsify و منتشرشده از داخل گیت. سمت چپ، نمای واقعی صفحه‌ی «راه‌اندازی سرور خانگی» با سایدبار راست دیده می‌شود.</desc>
+
+  <defs>
+    <clipPath id="siteClip">
+      <rect x="56" y="56" width="536" height="288" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <!-- ground -->
+  <rect x="0.75" y="0.75" width="1198.5" height="398.5" rx="24" fill="#0c0f10" stroke="#1d2425" stroke-width="1.5"/>
+
+  <!-- ══ project proof: a miniature of the real rendered site ══ -->
+  <g id="site-specimen">
+    <rect x="56" y="56" width="536" height="288" rx="14" fill="#ffffff"/>
+
+    <g clip-path="url(#siteClip)">
+      <!-- sidebar sits on the RIGHT, as it does in index.html -->
+      <rect x="420" y="56" width="172" height="288" fill="#f5f8f6"/>
+      <line x1="420" y1="56" x2="420" y2="344" stroke="#e6ebe9" stroke-width="1.5"/>
+
+      <g font-family="Vazirmatn, Tahoma, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" direction="rtl" text-anchor="start">
+        <text x="572" y="100" font-size="20" font-weight="600" fill="#97a29e">مستندات</text>
+        <text x="572" y="152" font-size="18" fill="#46504d">خانه</text>
+        <text x="572" y="190" font-size="18" fill="#46504d">زیرساخت</text>
+        <text x="564" y="226" font-size="18" font-weight="600" fill="#2f9c6b">راه‌اندازی سرور</text>
+        <text x="564" y="262" font-size="18" fill="#46504d">افزودن مستند</text>
+      </g>
+      <line x1="440" y1="120" x2="572" y2="120" stroke="#e6ebe9" stroke-width="1.5"/>
+      <!-- active marker — same right-edge rule as the site's blockquote -->
+      <rect x="584" y="208" width="4" height="26" fill="#42b983"/>
+
+      <!-- content column -->
+      <g font-family="Vazirmatn, Tahoma, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" direction="rtl" text-anchor="start">
+        <text x="400" y="114" font-size="27" font-weight="700" fill="#42b983">راه‌اندازی سرور خانگی</text>
+        <text x="384" y="172" font-size="19" fill="#5d6a66">تبدیل لپ‌تاپ قدیمی</text>
+        <text x="384" y="196" font-size="19" fill="#5d6a66">به سرور شخصی</text>
+      </g>
+      <line x1="88" y1="136" x2="400" y2="136" stroke="#eceeed" stroke-width="1.5"/>
+      <rect x="396" y="152" width="4" height="52" fill="#42b983"/>
+
+      <rect x="88" y="216" width="312" height="54" rx="8" fill="#101516"/>
+      <text x="104" y="249" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+            font-size="19" fill="#7fd6a8">sudo netplan apply</text>
+
+      <rect x="180" y="290" width="220" height="7" rx="3.5" fill="#e9edeb"/>
+      <rect x="250" y="308" width="150" height="7" rx="3.5" fill="#eff2f1"/>
+    </g>
+
+    <rect x="56" y="56" width="536" height="288" rx="14" fill="none" stroke="#dfe6e3" stroke-width="1.5"/>
+  </g>
+
+  <!-- ══ title block, right-aligned as the site reads ══ -->
+  <g id="title-block">
+    <rect x="1140" y="96" width="4" height="124" fill="#42b983"/>
+
+    <g font-family="Vazirmatn, Tahoma, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" direction="rtl" text-anchor="start">
+      <text x="1120" y="120" font-size="22" fill="#7e8d89">سایت مستندات خودمیزبان</text>
+      <text x="1120" y="238" font-size="26" fill="#c6d0cd">مستندات فنیِ فارسی، نسخه‌بندی‌شده در گیت</text>
+      <text x="1120" y="274" font-size="26" fill="#c6d0cd">یک push، و سایت به‌روز می‌شود</text>
+    </g>
+
+    <text x="1120" y="192" text-anchor="end"
+          font-family="Vazirmatn, Tahoma, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+          font-size="66" font-weight="700" fill="#eef2f1" letter-spacing="-1">my-docs</text>
+
+    <text x="1120" y="332" text-anchor="end"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="19" fill="#6b7a76">docsify 4 · nginx:alpine · fa-IR / RTL</text>
+  </g>
+</svg>
