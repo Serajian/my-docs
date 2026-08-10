@@ -1,3 +1,7 @@
 - [خانه](/README.md)
-- [راه‌اندازی سرور خانگی](/home-server.md)
-- [Foobar](/foobar.md)
+
+- زیرساخت
+  - [راه‌اندازی سرور خانگی](/home-server.md)
+
+- راهنما
+  - [افزودن مستند جدید](/contributing.md)
