@@ -3,11 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
     <title>مستندات</title>
+
+    <!-- تم بر اساس تنظیمات سیستم‌عامل انتخاب می‌شود -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+      media="(prefers-color-scheme: light)"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css"
+      media="(prefers-color-scheme: dark)"
+    />
+
     <style>
       body,
       .sidebar,
@@ -36,7 +46,6 @@
         direction: ltr;
         text-align: left;
       }
-
       .markdown-section table {
         direction: rtl;
       }
@@ -48,6 +57,64 @@
       @media screen and (max-width: 768px) {
         .content {
           right: 0;
+        }
+      }
+
+      /* ───────── حالت تاریک ───────── */
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #16171a;
+        }
+
+        .markdown-section pre,
+        .markdown-section pre > code {
+          background-color: #1e1f22;
+          color: #dcdcdc;
+        }
+
+        .markdown-section code {
+          background-color: #2a2b2e;
+          color: #e06c75;
+        }
+
+        .markdown-section table td,
+        .markdown-section table th {
+          border-color: #3a3b3e;
+        }
+        .markdown-section tr {
+          border-top-color: #3a3b3e;
+        }
+        .markdown-section tr:nth-child(2n) {
+          background-color: #1e1f22;
+        }
+
+        .markdown-section blockquote {
+          background-color: #1e1f22;
+          border-right-color: #42b983;
+          color: #b8bcc2;
+        }
+
+        .sidebar {
+          border-left-color: #2a2b2e;
+        }
+
+        /* کادر جستجو */
+        .search input {
+          background-color: #1e1f22;
+          border-color: #3a3b3e;
+          color: #dcdcdc;
+        }
+        .search .results-panel {
+          background-color: #16171a;
+        }
+        .search {
+          border-bottom-color: #2a2b2e;
+        }
+
+        /* دکمه‌ی کپی کد */
+        .docsify-copy-code-button {
+          background: #2a2b2e !important;
+          color: #dcdcdc !important;
         }
       }
     </style>
