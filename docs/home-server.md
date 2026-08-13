@@ -292,6 +292,8 @@ tailscale status      # وضعیت اتصال — direct یا relay
 
 > اگر `tailscale status` عبارت `relay` نشان دهد، ترافیک از سرور واسط کلادفلر عبور می‌کند و تأخیر بالا می‌رود (۲۰۰+ میلی‌ثانیه). با اتصال کابلی معمولاً `direct` می‌شود.
 
+> 💡 مرجع کامل دستورهای تیل‌اسکیل — exit node، subnet router، Taildrop، Serve و Funnel و عیب‌یابی — در [راهنمای دستورات Tailscale](/tailscale-cheatsheet.md) آمده است.
+
 ---
 
 ## مرحله ۵ — Docker

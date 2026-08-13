@@ -10,6 +10,12 @@
 
 بخش عیب‌یابی هم هست: فلشی که بوت نمی‌شود، قطعی مکرر وای‌فای، خطای احراز هویت دیتابیس Dokploy، بالا نیامدن cloudflared، خطاهای DNS و برچسب `Invalid` روی دامنه.
 
+**[راهنمای دستورات Tailscale](/tailscale-cheatsheet.md)**
+
+مرجع فارسی دستورهای خط فرمان تیل‌اسکیل: لاگین و اتصال، فرق `up` با `set`، exit node و subnet router، ‏Tailscale SSH، انتقال فایل با Taildrop، انتشار سرویس با Serve و Funnel و MagicDNS.
+
+بخش عیب‌یابی هم دارد: `tailscale ping` و `netcheck`، خواندن خروجی relay و direct، لاگ‌های `tailscaled` و جدول خلاصه‌ی همه‌ی دستورها.
+
 **[افزودن مستند جدید](/contributing.md)**
 
 قواعد نام‌گذاری فایل، ساختار سایدبار، سبک نوشتن، لینک بین صفحه‌ها، تست محلی پیش از push و نکته‌های امنیتی.

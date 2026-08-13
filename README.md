@@ -12,6 +12,7 @@
 | مستند | چه چیزی را پوشش می‌دهد |
 | --- | --- |
 | **[راه‌اندازی سرور خانگی](docs/home-server.md)** | تبدیل یک لپ‌تاپ Sony Vaio به سرور شخصی: نصب Ubuntu Server، پیکربندی شبکه با netplan، جلوگیری از خوابیدن با بستن درب، سخت‌سازی SSH و fail2ban، سپس Docker، Dokploy، Cloudflare Tunnel و Tailscale — به‌همراه بخشی از خطاهایی که واقعاً پیش آمدند و راه‌حلشان |
+| **[راهنمای دستورات Tailscale](docs/tailscale-cheatsheet.md)** | مرجع فارسی دستورهای خط فرمان تیل‌اسکیل: لاگین و اتصال، تفاوت `up` با `set`، exit node و subnet router، ‏Tailscale SSH، ‏Taildrop، ‏Serve و Funnel، ‏MagicDNS و عیب‌یابی با `ping` و `netcheck` — به‌همراه جدول خلاصه‌ی همه‌ی دستورها |
 | **[افزودن مستند جدید](docs/contributing.md)** | قواعد نام‌گذاری فایل، ساختار سایدبار، سبک نوشتن، لینک بین صفحه‌ها و تست محلی |
 
 </div>
