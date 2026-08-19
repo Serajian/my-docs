@@ -16,6 +16,12 @@
 
 بخش عیب‌یابی هم دارد: `tailscale ping` و `netcheck`، خواندن خروجی relay و direct، لاگ‌های `tailscaled` و جدول خلاصه‌ی همه‌ی دستورها.
 
+**[درس‌نامه معماری نرم‌افزار](/software-architecture.md)**
+
+مسیر مرحله‌به‌مرحله از تعریف معماری تا تصمیم‌های واقعی: ‏Complexity و Coupling و Cohesion، جهت وابستگی، ‏Layered و Hexagonal و Clean Architecture، ‏SOLID، ‏Dependency Injection، ‏DDD، ‏Modular Monolith و الگوهای ارتباطی.
+
+بخش پایانی درباره‌ی سیستم‌های توزیع‌شده است: ‏Sync و Async، ‏Outbox، ‏Idempotency، ‏Saga، ‏CQRS و Event Sourcing و یک فصل جداگانه درباره‌ی Event-Driven Architecture.
+
 **[افزودن مستند جدید](/contributing.md)**
 
 قواعد نام‌گذاری فایل، ساختار سایدبار، سبک نوشتن، لینک بین صفحه‌ها، تست محلی پیش از push و نکته‌های امنیتی.
