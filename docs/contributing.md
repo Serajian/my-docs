@@ -9,6 +9,7 @@
 ```
 docs-repo/
 ├── Dockerfile          ← ایمیج nginx — دست نزن
+├── nginx/default.conf  ← هدرهای کش و mime — دست نزن
 ├── index.html          ← تنظیمات docsify — به‌ندرت لازم است
 ├── _sidebar.md         ← منوی ناوبری  ▸ اینجا را ویرایش کن
 └── docs/
