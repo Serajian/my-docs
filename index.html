@@ -128,6 +128,10 @@
         subMaxLevel: 3, // عناوین هر صفحه را در سایدبار باز می‌کند
         homepage: "README.md",
         auto2top: true,
+        // مرورگر نسخه‌ی کش‌شده‌ی _sidebar.md را نگه ندارد
+        requestHeaders: {
+          "cache-control": "no-cache",
+        },
         search: {
           placeholder: "جستجو…",
           noData: "چیزی پیدا نشد",
